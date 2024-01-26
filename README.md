@@ -24,7 +24,7 @@ cd AliAli123
 ## Create a virtual environment
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
@@ -44,8 +44,14 @@ uvicorn main:app --reload  # Run the FastAPI server locally
 Build and run the Docker container
 
 ```bash
-docker build -t AliAli123 -f Dockerfile .
-docker run -p 8000:8000 AliAli123
+docker build -f Dockerfile .
+docker-compose up -d
+
+# to stop the container
+docker ps
+
+# Using Container ID
+docker stop <container_id>
 ```
 
 
