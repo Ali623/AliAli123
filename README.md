@@ -17,8 +17,8 @@ This repository contains the code for a machine learning model designed to class
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ali623/AliAli123.git
-cd AliAli123
+git clone https://github.com/ali623/German-Text-Classification-using-Machine-Learning.git
+cd German-Text-Classification-using-Machine-Learning
 ```
 
 ## Create a virtual environment
