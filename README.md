@@ -10,7 +10,7 @@ This repository contains the code for a machine learning model designed to class
 
 - `Dockerfile`: Dockerfile for containerizing the model and REST API (FAST API).
 
-- `requirements.txt`: List of Python dependencies.
+- `requirements.txt`: List of Python.
 
 ## Environment Setup
 
